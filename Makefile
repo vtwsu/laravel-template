@@ -7,7 +7,7 @@ up:
 	docker-compose up -d
 	sudo chown -R vtw:vtw data
 	sudo chmod -R 777 data
-
+	docker-compose exec -T -u root php bash -c "PGPASSWORD=password pg_dump -U user -h postgres db >> db.sql"
 # Остановка контейнеров
 down:
 	docker-compose down
