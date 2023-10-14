@@ -32,7 +32,7 @@ make build
 1. Миграции запускать отдельно
 2. `sudo systemctl stop postgresql.service` - остановка уже запущенного postgress.
 
-Остальные команды можно узнать из файла Makefile
+Остальные команды можно узнать из файла Makefile.
 <br><br>
 После запуска сайт будет доступен по адресу [http://localhost](http://localhost)
 
