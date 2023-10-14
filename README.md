@@ -3,7 +3,8 @@
     PHP: 8.2.10
     Laravel: 10.24.0
     Postgres: 13
-    Изначальная сборка: [https://gitlab.com/s_senj/laravel-template](gitlab.com/s_senj/laravel-template)
+
+Изначальная сборка: [https://gitlab.com/s_senj/laravel-template](gitlab.com/s_senj/laravel-template)
 
 ### Изменения
     1. Сборка проекта в т.ч. на manjaro linux;
@@ -18,7 +19,7 @@
 make build
 ```
 ### Дополнительно
-В 8 строке, в файле "Makefile", нужно поменять группу и пользователя на директорию "data". Необходимо для корректного взаимодействия с бд.
+В 8 строке, в **Makefile**, нужно поменять группу и пользователя на системные, для директории **data**. Необходимо для корректного взаимодействия с бд.
 
 ## Работа с контейнерами
 `make build` - сборка контейнеров <br>
