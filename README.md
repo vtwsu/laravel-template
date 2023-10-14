@@ -4,7 +4,7 @@
     Laravel: 10.24.0
     Postgres: 13
 
-Изначальная сборка: [https://gitlab.com/s_senj/laravel-template](gitlab.com/s_senj/laravel-template)
+Изначальная сборка: [gitlab.com/s_senj/laravel-template](https://gitlab.com/s_senj/laravel-template)
 
 ### Изменения
     1. Сборка проекта в т.ч. на manjaro linux;
