@@ -20,7 +20,7 @@ make build
 
 ## Точка входа приложения
 Точкой входа скриптов служит `src/resources/js/app.js`<br>
-Точкой входа стилей служит `src/resources/sass/app.scss`
+Точкой входа стилей служит `src/resources/css/app.css`
 
 ## Работа с фронтом
 `make dev` - запуск вотчера (yarn watch)<br>
