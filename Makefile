@@ -38,9 +38,9 @@ build:
 
 # Запускает yarn watch в контейнере для разработки фронтенда
 dev:
-	docker-compose exec php yarn watch
+	# docker-compose exec php yarn watch
 
 # Запускает yarn production для сборки билда
 prod:
-	docker-compose exec php yarn production
+	# docker-compose exec php yarn production
 

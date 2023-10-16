@@ -1,8 +1,16 @@
 Для добавления в контейнер node, npm и yarn необходимо:
-1. в `Dockerfile` необходимо расскоментировать строку
+1. в `Dockerfile` необходимо расскоментировать строки
 
 ```docker
 RUN apt-get install --no-cache nodejs npm yarn
+```
+
+```docker
+docker-compose exec php yarn watch
+```
+
+```docker
+docker-compose exec php yarn production
 ```
 
 2. В `Makefile` раскомментировать строку
@@ -19,8 +27,12 @@ make build
 
 
 ## Точка входа приложения
+Необходимо распаковать архив **vite.config.zip**
+
 Точкой входа скриптов служит `src/resources/js/app.js`<br>
-Точкой входа стилей служит `src/resources/css/app.css`
+Точкой входа стилей служит `src/resources/css/app.css`<br>
+
+Изменить эти пути можно здесь: `vite.config.js`
 
 ## Работа с фронтом
 `make dev` - запуск вотчера (yarn watch)<br>
